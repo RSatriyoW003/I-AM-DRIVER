@@ -30,3 +30,21 @@ class MyApp extends StatelessWidget {
                 ),
                 child: const Column(
                   children: [
+                    Text("Selalu cari jalan pintas",
+                        style: TextStyle(fontSize: 16)),
+                    Text("Hafal semua rute dalam kota",
+                        style: TextStyle(fontSize: 16)),
+                    Text("Menghitung efisiensi bahan bakar",
+                        style: TextStyle(fontSize: 16)),
+                    Text("GPS? Feeling lebih akurat!",
+                        style: TextStyle(fontSize: 16)),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
