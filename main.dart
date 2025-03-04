@@ -23,3 +23,10 @@ class MyApp extends StatelessWidget {
               Image.asset('assets/driver.png', width: 150),
               const SizedBox(height: 20),
               Container(
+                                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.orangeAccent[100],
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Column(
+                  children: [
